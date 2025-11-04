@@ -1,2 +1,36 @@
 set PATH=%PATH%;"C:\Program Files\MySQL\MySQL Server 8.0\bin"
- 
+
+
+git status
+git add .
+git commit -m "your message"
+git push origin main
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+SELECT o.`order_id`, p.`name`, o.`quantity`, (o.`quantity` * p.`price`) AS `line_total`
+FROM `orders2` o
+JOIN `products2` p ON p.`product_id` = o.`product_id`;
+
+
+SELECT `order_id`, `product_name`, `category`,
+       (`quantity` * `unit_price`) AS `line_total`,
+       CASE WHEN `category` = 'Accessories' THEN 'YES' ELSE 'NO' END AS `discount_eligible`
+FROM `orders2`
+WHERE (`quantity` * `unit_price`) >= 40.00
+ORDER BY `order_id`;
