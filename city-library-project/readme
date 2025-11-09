@@ -1,0 +1,73 @@
+# City Library Management System --- SQL Project
+
+**Author:** Mridul\
+**Database:** MySQL
+
+## Overview
+
+This project implements a real‑world Library Management System using
+MySQL. It supports book catalog management, member handling, book loans,
+fine calculation, and event registration. The system demonstrates strong
+database design principles and advanced SQL concepts.
+
+## Key Features
+
+-   Relational database schema with PK‑FK mapping
+-   Book, member, loan, fines, and events management
+-   Automated overdue fine handling using triggers
+-   Stored procedures and functions for library operations
+-   Window functions and analytical queries
+-   Set operations, joins, transactions, and views
+
+## Technologies Used
+
+-   MySQL 8+
+-   SQL --- DDL, DML, DQL, TCL
+
+## Database Entities
+
+-   Authors\
+-   Books\
+-   Book Copies\
+-   Members\
+-   Loans\
+-   Fines\
+-   Events\
+-   Event Registrations
+
+## Run Instructions
+
+1.  Create database and use it\
+2.  Run schema SQL\
+3.  Insert sample data\
+4.  Execute procedures, triggers, and functions\
+5.  Test using SELECT queries
+
+## Completed Tasks
+
+-   ✅ ER Diagram\
+-   ✅ Schema Creation\
+-   ✅ Sample Data\
+-   ✅ Procedures, Functions, Triggers\
+-   ✅ Window Functions\
+-   ✅ Views\
+-   ✅ Transactions
+
+## Learning Outcomes
+
+-   Relational database design
+-   SQL programming and automation
+-   Real‑world DBMS application logic
+
+## Files Included
+
+-   SQL scripts (schema, inserts, triggers, etc.)
+-   ER diagram (.png)
+-   Project report (.docx/.pdf)
+-   README.md
+
+## Conclusion
+
+This project demonstrates a complete library database solution built
+with MySQL, focusing on real‑time operations, automation, and analytical
+queries.
